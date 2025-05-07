@@ -1,2 +1,2 @@
 # KNN
-KNN
+The iris data set was used. The output column 'Species' was encoded using LabelEncoder. The numerical features were scaled using StandardScaler. The KNN model was fit with the default value of n_neighors as 5. The model was evaluated using classification_report. Multiple values of k, ranging from 1 to 19 was experimented and the best value turned out to be between 2 and 17. The acuracy and confusion matrix was also printed. Two features were picked and the decision boundaries were visualised using matplotlib.
